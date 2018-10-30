@@ -1,0 +1,37 @@
+
+<html>
+<head>
+	<title>Add Data</title>
+</head>
+
+<body>
+<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Add Task</a>
+					<br/><br/>
+					  <div id="modal1" class="modal">
+					    <div class="modal-content">
+
+					    	<form action="add.php" method="POST" name="form1">
+								<table width="25%" border="0">
+									<tr> 
+										<td>Task Name</td>
+										<td><input type="text" name="taskTitle"></td>
+									</tr>
+									<tr> 
+										<td>Task Date</td>
+										<td><input type="Date" name="taskDate"></td>
+									</tr>
+									<tr> 
+										<td>Task Description</td>
+										<td><input type="text" name="taskDescription"></td>
+									</tr>
+									<tr> 
+										<td></td>
+										<td><input type="submit" name="Submit" value="Add Task"></td>
+									</tr>
+								</table>
+							</form>
+
+					    	</div>
+					    </div>
+</body>
+</html>
